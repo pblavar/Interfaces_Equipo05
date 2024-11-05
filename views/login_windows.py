@@ -22,7 +22,7 @@ class LoginWindow(QMainWindow):
     @Slot()
     def slot_on_button_login_clicked(self):  
         print("Hemos pulsado el botón de login")
-        name = self.ui.user_editline.text().strip()  # Usar .strip() para eliminar espacios
+        name = self.ui.email_editline.text().strip()  # Usar .strip() para eliminar espacios
         password = self.ui.password_editline.text()
 
         # Verificar si los campos están vacíos

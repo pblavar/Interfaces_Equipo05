@@ -194,6 +194,7 @@ class Ui_MainWindow(object):
 
         self.password_editline = QLineEdit(self.widget)
         self.password_editline.setObjectName(u"password_editline")
+        self.password_editline.setEchoMode(QLineEdit.EchoMode.Password)
 
         self.gridLayout_3.addWidget(self.password_editline, 3, 1, 1, 2)
 
@@ -216,6 +217,7 @@ class Ui_MainWindow(object):
 
         self.password_confirm_editline = QLineEdit(self.widget)
         self.password_confirm_editline.setObjectName(u"password_confirm_editline")
+        self.password_confirm_editline.setEchoMode(QLineEdit.EchoMode.Password)
 
         self.gridLayout_3.addWidget(self.password_confirm_editline, 4, 1, 1, 2)
 

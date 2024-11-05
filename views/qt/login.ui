@@ -170,6 +170,9 @@ QCheckBox::indicator:checked {
            <height>16777215</height>
           </size>
          </property>
+         <property name="echoMode">
+          <enum>QLineEdit::EchoMode::Password</enum>
+         </property>
          <property name="alignment">
           <set>Qt::AlignmentFlag::AlignCenter</set>
          </property>

@@ -125,6 +125,7 @@ class Ui_MainWindow(object):
         self.password_editline = QLineEdit(self.widget)
         self.password_editline.setObjectName(u"password_editline")
         self.password_editline.setMaximumSize(QSize(16777215, 16777215))
+        self.password_editline.setEchoMode(QLineEdit.EchoMode.Password)
         self.password_editline.setAlignment(Qt.AlignmentFlag.AlignCenter)
 
         self.gridLayout_3.addWidget(self.password_editline, 2, 1, 1, 2)

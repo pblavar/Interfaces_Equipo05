@@ -296,7 +296,11 @@ text-align: center;
         </widget>
        </item>
        <item row="3" column="1" colspan="2">
-        <widget class="QLineEdit" name="password_editline"/>
+        <widget class="QLineEdit" name="password_editline">
+         <property name="echoMode">
+          <enum>QLineEdit::EchoMode::Password</enum>
+         </property>
+        </widget>
        </item>
        <item row="2" column="3">
         <widget class="QLabel" name="email_icon">
@@ -335,7 +339,11 @@ text-align: center;
         </spacer>
        </item>
        <item row="4" column="1" colspan="2">
-        <widget class="QLineEdit" name="password_confirm_editline"/>
+        <widget class="QLineEdit" name="password_confirm_editline">
+         <property name="echoMode">
+          <enum>QLineEdit::EchoMode::Password</enum>
+         </property>
+        </widget>
        </item>
        <item row="4" column="3">
         <widget class="QLabel" name="password_confirm_label">
